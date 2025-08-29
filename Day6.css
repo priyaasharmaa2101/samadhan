@@ -1,0 +1,67 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #120e2f;
+}
+
+.profile-card {
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid #a7ccc2;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #dfcdcd;
+}
+
+.profile-header {
+  background-color: #6b94a8;
+  text-align: center;
+  padding: 20px;
+}
+
+.profile-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #d4c9c9;
+}
+
+.profile-info {
+  padding: 20px;
+  text-align: center;
+}
+
+.name {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.job-title {
+  font-size: 16px;
+  color: #251a3f;
+}
+
+.bio {
+  font-size: 14px;
+  color: #555;
+  margin-top: 10px;
+}
+
+.social-link {
+  display: block;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #021b2b;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  text-decoration: underline;
+}
